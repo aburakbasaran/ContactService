@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="UserContact\" />
+    <Folder Include="User\Query\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\ContractService.Application\ContactService.Application.csproj" />
+  </ItemGroup>
+
 </Project>

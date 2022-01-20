@@ -18,3 +18,7 @@ OBJ/*
 /Source/Service/ContactService.API/bin/Debug/net5.0
 /Source/Service/ContactService.API/obj/Debug/net5.0
 /Source/Service/ContactService.API/obj
+/.vs/ContactService/config/applicationhost.config
+/.vs/ContactService
+/Source/Core/ContactService.SourceGenerator/bin/Debug
+/Source/Core/ContactService.SourceGenerator/obj

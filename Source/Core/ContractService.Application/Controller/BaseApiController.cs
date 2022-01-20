@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace OTI.B2C.API.Application.Controllers
+namespace ContactService.Application.Controller
 {
     [ApiController]
     [Route("[controller]")]

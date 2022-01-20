@@ -1,3 +1,5 @@
+using ContactService.Application.Exception;
+using ContactService.ContactModule.Engine;
 using ContactService.Infrastructure.Extension;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,11 +30,23 @@ namespace ContactService.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            IMvcBuilder mvcBuilder = services.AddControllers(options => options.Filters.Add<ApiResponseExceptionFilter>())
+                                            .ConfigureApiBehaviorOptions(options =>
+                                            {
+                                                options.SuppressModelStateInvalidFilter = true;
+                                                options.SuppressInferBindingSourcesForParameters = true;
+                                            });
 
             services.AddControllers();
 
-            services.AddCoreApplication();
             services.AddSwaggerConfiguration();
+
+            services.AddCoreApplication();
+
+            //Modules
+            services.AddContactModuleEngine(mvcBuilder);
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
