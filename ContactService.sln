@@ -5,6 +5,7 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11F1D4C7-42ED-47C3-90D5-354D739911FE}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
@@ -34,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Messages", "Source\Module\Contact\ContactService.ContactModule.Messages\ContactService.ContactModule.Messages.csproj", "{245B67CC-3427-44E7-9C13-ADEA9E9A043C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{6053392C-E0E6-492C-B1B4-E2B8446E8E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{6053392C-E0E6-492C-B1B4-E2B8446E8E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

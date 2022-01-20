@@ -5,3 +5,16 @@ OBJ/*
 /Source/Module/Contact/ContactService.ContactModule.Domain/obj/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Engine/obj/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Messages/obj/Debug/net5.0
+/.vs/ContactService/v17
+/Source/Core/ContractService.Application/bin/Debug/net5.0
+/Source/Core/ContractService.Application/obj
+/Source/Core/ContractService.Infrastructure/bin/Debug/net5.0
+/Source/Core/ContractService.Infrastructure/obj
+/Source/Module/Contact/ContactService.ContactModule.Domain/bin/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Domain/obj
+/Source/Module/Contact/ContactService.ContactModule.Engine
+/Source/Module/Contact/ContactService.ContactModule.Messages/bin/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Messages/obj
+/Source/Service/ContactService.API/bin/Debug/net5.0
+/Source/Service/ContactService.API/obj/Debug/net5.0
+/Source/Service/ContactService.API/obj
