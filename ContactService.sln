@@ -5,7 +5,6 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11F1D4C7-42ED-47C3-90D5-354D739911FE}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
@@ -35,7 +34,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Messages", "Source\Module\Contact\ContactService.ContactModule.Messages\ContactService.ContactModule.Messages.csproj", "{245B67CC-3427-44E7-9C13-ADEA9E9A043C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{BA86D6E8-C164-4525-AC15-10E3D532C6D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{6053392C-E0E6-492C-B1B4-E2B8446E8E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +66,10 @@ Global
 		{245B67CC-3427-44E7-9C13-ADEA9E9A043C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245B67CC-3427-44E7-9C13-ADEA9E9A043C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245B67CC-3427-44E7-9C13-ADEA9E9A043C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA86D6E8-C164-4525-AC15-10E3D532C6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA86D6E8-C164-4525-AC15-10E3D532C6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA86D6E8-C164-4525-AC15-10E3D532C6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA86D6E8-C164-4525-AC15-10E3D532C6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6053392C-E0E6-492C-B1B4-E2B8446E8E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6053392C-E0E6-492C-B1B4-E2B8446E8E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6053392C-E0E6-492C-B1B4-E2B8446E8E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6053392C-E0E6-492C-B1B4-E2B8446E8E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,7 +86,7 @@ Global
 		{41481001-ADBC-44CE-847D-1A7DD77CEF08} = {D4EDB07F-6A28-424A-B81A-3699E646EABE}
 		{539FC7E7-776D-48C8-A4F8-503A34DA58B2} = {D4EDB07F-6A28-424A-B81A-3699E646EABE}
 		{245B67CC-3427-44E7-9C13-ADEA9E9A043C} = {D4EDB07F-6A28-424A-B81A-3699E646EABE}
-		{BA86D6E8-C164-4525-AC15-10E3D532C6D9} = {88DCB44D-4098-4078-880D-6DBBE30B2FBC}
+		{6053392C-E0E6-492C-B1B4-E2B8446E8E58} = {88DCB44D-4098-4078-880D-6DBBE30B2FBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F3CAE08-EAA1-4907-B775-A8E58EF498B7}

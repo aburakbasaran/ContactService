@@ -1,2 +1,7 @@
 ﻿bin/*
 OBJ/*
+/Source/Core/ContractService.Application/obj/Debug/net5.0
+/Source/Core/ContractService.Infrastructure/obj/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Domain/obj/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Engine/obj/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Messages/obj/Debug/net5.0
