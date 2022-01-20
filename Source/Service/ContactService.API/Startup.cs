@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using OTI.B2C.API.Application;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace ContactService.API
         {
 
             services.AddControllers();
+
+            services.AddCoreApplication();
             services.AddSwaggerConfiguration();
         }
 
