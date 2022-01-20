@@ -1,0 +1,11 @@
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\bin\Debug\net5.0\ContactService.ContactModule.Engine.deps.json
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\bin\Debug\net5.0\ContactService.ContactModule.Engine.dll
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\bin\Debug\net5.0\ref\ContactService.ContactModule.Engine.dll
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\bin\Debug\net5.0\ContactService.ContactModule.Engine.pdb
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.AssemblyInfoInputs.cache
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.AssemblyInfo.cs
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.csproj.CoreCompileInputs.cache
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.dll
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ref\ContactService.ContactModule.Engine.dll
+C:\Users\abura\source\repos\ContactService\Source\Module\Contact\ContactService.ContactModule.Engine\obj\Debug\net5.0\ContactService.ContactModule.Engine.pdb
