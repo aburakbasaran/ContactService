@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abura\\source\\repos\\ContactService\\ContactService.API\\ContactService.API.csproj",
+      "projectUniqueName": "C:\\Users\\abura\\source\\repos\\ContactService\\Source\\Service\\ContactService.API\\ContactService.API.csproj",
       "projectName": "ContactService.API",
-      "projectPath": "C:\\Users\\abura\\source\\repos\\ContactService\\ContactService.API\\ContactService.API.csproj",
+      "projectPath": "C:\\Users\\abura\\source\\repos\\ContactService\\Source\\Service\\ContactService.API\\ContactService.API.csproj",
       "packagesPath": "C:\\Users\\abura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abura\\source\\repos\\ContactService\\ContactService.API\\obj\\",
+      "outputPath": "C:\\Users\\abura\\source\\repos\\ContactService\\Source\\Service\\ContactService.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abura\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Messages", "Source\Module\Contact\ContactService.ContactModule.Messages\ContactService.ContactModule.Messages.csproj", "{245B67CC-3427-44E7-9C13-ADEA9E9A043C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.API", "ContactService.API\ContactService.API.csproj", "{BA86D6E8-C164-4525-AC15-10E3D532C6D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{BA86D6E8-C164-4525-AC15-10E3D532C6D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
