@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UserContact\" />
     <Folder Include="User\Query\" />
   </ItemGroup>
 

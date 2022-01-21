@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ContactService.ContactModule.Data.Data.Migrations
 {
     [DbContext(typeof(ContactDbContext))]
-    [Migration("20220121190002_InitialCreate")]
+    [Migration("20220121205236_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,8 +62,7 @@ namespace ContactService.ContactModule.Data.Data.Migrations
                         .HasColumnName("firm");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)")
+                        .HasColumnType("text")
                         .HasColumnName("name");
 
                     b.Property<string>("SurName")

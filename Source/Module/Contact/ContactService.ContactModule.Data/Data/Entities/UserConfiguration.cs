@@ -12,9 +12,6 @@ namespace ContactService.ContactModule.Data.Data.Entities
 
             builder.HasKey(t => t.Id);
 
-            builder.Property(t => t.Name)
-              .HasMaxLength(100);
-
             base.Configure(builder);
         }
     }

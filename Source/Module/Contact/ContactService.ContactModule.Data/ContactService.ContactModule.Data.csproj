@@ -15,4 +15,8 @@
     <ProjectReference Include="..\..\..\Core\ContractService.Infrastructure\ContactService.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
 </Project>

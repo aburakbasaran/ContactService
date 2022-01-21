@@ -16,7 +16,7 @@ namespace ContactService.ContactModule.Data.Data.Migrations
                 columns: table => new
                 {
                     id = table.Column<Guid>(type: "uuid", nullable: false),
-                    name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
+                    name = table.Column<string>(type: "text", nullable: true),
                     sur_name = table.Column<string>(type: "text", nullable: true),
                     firm = table.Column<string>(type: "text", nullable: true)
                 },

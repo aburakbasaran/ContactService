@@ -60,8 +60,7 @@ namespace ContactService.ContactModule.Data.Data.Migrations
                         .HasColumnName("firm");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)")
+                        .HasColumnType("text")
                         .HasColumnName("name");
 
                     b.Property<string>("SurName")
