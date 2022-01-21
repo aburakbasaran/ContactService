@@ -22,3 +22,6 @@ OBJ/*
 /.vs/ContactService
 /Source/Core/ContactService.SourceGenerator/bin/Debug
 /Source/Core/ContactService.SourceGenerator/obj
+/Source/Module/Contact/ContactService.ContactModule.Data/bin/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Data/obj/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Data/obj

@@ -6,10 +6,10 @@ using ContactService.Application.Constant;
 using FluentValidation.Results;
 
 
-namespace OTI.B2C.API.Application.Exceptions
+namespace ContactService.Application.Exception
 {
     [Serializable]
-    public class ValidationException : Exception
+    public class ValidationException : System.Exception
     {
         public IDictionary<string, string[]> Errors { get; }
 

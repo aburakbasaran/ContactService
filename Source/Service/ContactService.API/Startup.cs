@@ -1,20 +1,14 @@
+using ContactService.Application;
 using ContactService.Application.Exception;
 using ContactService.ContactModule.Engine;
 using ContactService.Infrastructure.Extension;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using OTI.B2C.API.Application;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+
 
 namespace ContactService.API
 {
@@ -44,7 +38,7 @@ namespace ContactService.API
             services.AddCoreApplication();
 
             //Modules
-            services.AddContactModuleEngine(mvcBuilder);
+            services.AddContactModuleEngine(mvcBuilder, Configuration);
 
             
         }

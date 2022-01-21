@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 namespace ContactService.Application.Exception
 {
     [Serializable]
-    public class HandledException : SystemException
+    public class HandledException : System.Exception
     {
         public HandledException()
         {

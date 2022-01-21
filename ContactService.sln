@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.Domain", "So
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{D4EDB07F-6A28-424A-B81A-3699E646EABE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Domain", "Source\Module\Contact\ContactService.ContactModule.Domain\ContactService.ContactModule.Domain.csproj", "{41481001-ADBC-44CE-847D-1A7DD77CEF08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Data", "Source\Module\Contact\ContactService.ContactModule.Data\ContactService.ContactModule.Data.csproj", "{41481001-ADBC-44CE-847D-1A7DD77CEF08}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModule.Engine", "Source\Module\Contact\ContactService.ContactModule.Engine\ContactService.ContactModule.Engine.csproj", "{539FC7E7-776D-48C8-A4F8-503A34DA58B2}"
 EndProject
@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ContactModul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.API", "Source\Service\ContactService.API\ContactService.API.csproj", "{6053392C-E0E6-492C-B1B4-E2B8446E8E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.SourceGenerator", "Source\Core\ContactService.SourceGenerator\ContactService.SourceGenerator.csproj", "{85B33375-FC4C-4708-9199-FAC88E622560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.SourceGenerator", "Source\Core\ContactService.SourceGenerator\ContactService.SourceGenerator.csproj", "{85B33375-FC4C-4708-9199-FAC88E622560}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

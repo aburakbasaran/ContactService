@@ -2,7 +2,7 @@
 using MediatR.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace OTI.B2C.API.Application
+namespace ContactService.Application
 {
     public static class BootStrapper
     {
