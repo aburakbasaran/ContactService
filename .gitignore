@@ -12,7 +12,6 @@ OBJ/*
 /Source/Core/ContractService.Infrastructure/obj
 /Source/Module/Contact/ContactService.ContactModule.Domain/bin/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Domain/obj
-/Source/Module/Contact/ContactService.ContactModule.Engine
 /Source/Module/Contact/ContactService.ContactModule.Messages/bin/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Messages/obj
 /Source/Service/ContactService.API/bin/Debug/net5.0
@@ -25,3 +24,5 @@ OBJ/*
 /Source/Module/Contact/ContactService.ContactModule.Data/bin/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Data/obj/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Data/obj
+/Source/Module/Contact/ContactService.ContactModule.Engine/bin/Debug/net5.0
+/Source/Module/Contact/ContactService.ContactModule.Engine/obj
