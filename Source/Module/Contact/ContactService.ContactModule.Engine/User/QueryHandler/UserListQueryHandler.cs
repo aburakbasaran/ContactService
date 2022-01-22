@@ -11,7 +11,7 @@ using ContactService.SourceGenerator.ApiGenerator;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "GetAll", ControllerName = "User", HttpMethod = HttpMethod.Get)]
+    [Generator(ActionName = "GetAll", ControllerName = "User", HttpMethod = HttpMethod.Get, NameSpace = "ContactService.API.Controllers")]
     public class UserListQueryHandler : IQueryHandler<GetUsersQuery, ApiResponse<List<UserListDto>>>
     {
         private readonly IContactDbContext _dbContext;

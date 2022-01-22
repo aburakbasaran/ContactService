@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "Add", ControllerName = "UserContact", HttpMethod = HttpMethod.Post)]
+    [Generator(ActionName = "Add", ControllerName = "UserContact", HttpMethod = HttpMethod.Post, NameSpace = "ContactService.API.Controllers")]
     public class AddUserContactCommandHandler : ICommandHandler<AddUserContactCommand, ApiResponse<bool>>
     {
         private readonly IContactDbContext _dbContext;

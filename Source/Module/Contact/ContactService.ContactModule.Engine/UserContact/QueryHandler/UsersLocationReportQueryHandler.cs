@@ -12,7 +12,7 @@ using ContactService.SourceGenerator.ApiGenerator;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "Get", ControllerName = "UserContactLocationsReport", HttpMethod = HttpMethod.Get)]
+    [Generator(ActionName = "Get", ControllerName = "UserContactLocationsReport", HttpMethod = HttpMethod.Get, NameSpace = "ContactService.API.Controllers")]
     public class UsersLocationReportQueryHandler : IQueryHandler<GetUsersLocationQuery, ApiResponse<List<UserLocationReportDto>>>
     {
         private readonly IContactDbContext _dbContext;

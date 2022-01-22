@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "Delete", ControllerName = "UserContact", HttpMethod = HttpMethod.Delete)]
+    [Generator(ActionName = "Delete", ControllerName = "UserContact", HttpMethod = HttpMethod.Delete, NameSpace = "ContactService.API.Controllers")]
     public class DeleteUserContactCommandHandler : ICommandHandler<DeleteUserContactCommand, ApiResponse<bool>>
     {
         private readonly IContactDbContext _dbContext;

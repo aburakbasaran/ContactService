@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "GetAll", ControllerName = "UserContact", HttpMethod = HttpMethod.Get)]
+    [Generator(ActionName = "GetAll", ControllerName = "UserContact", HttpMethod = HttpMethod.Get, NameSpace = "ContactService.API.Controllers")]
     public class UserContactsQueryHandler : IQueryHandler<GetUserContactsQuery, ApiResponse<UserContactsDto>>
     {
         private readonly IContactDbContext _dbContext;

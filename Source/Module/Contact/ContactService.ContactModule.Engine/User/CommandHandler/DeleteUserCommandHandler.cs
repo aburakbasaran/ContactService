@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "Delete", ControllerName = "User", HttpMethod = HttpMethod.Delete)]
+    [Generator(ActionName = "Delete", ControllerName = "User", HttpMethod = HttpMethod.Delete, NameSpace = "ContactService.API.Controllers")]
     public class DeleteUserCommandHandler : ICommandHandler<DeleteUserCommand, ApiResponse<bool>>
     {
         private readonly IContactDbContext _dbContext;

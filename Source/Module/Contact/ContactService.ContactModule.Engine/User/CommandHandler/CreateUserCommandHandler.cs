@@ -10,7 +10,7 @@ using ContactService.SourceGenerator.ApiGenerator;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
-    [Generator(ActionName = "Create", ControllerName = "User", HttpMethod = HttpMethod.Post)]
+    [Generator(ActionName = "Create", ControllerName = "User", HttpMethod = HttpMethod.Post, NameSpace = "ContactService.API.Controllers")]
     public class CreateUserCommandHandler : ICommandHandler<CreateUserCommand, ApiResponse<bool>>
     {
         private readonly IContactDbContext _dbContext;
