@@ -13,7 +13,7 @@ namespace ContactService.ContactModule.Engine.User.CommandHandler
     [Generator(ActionName = "Create", ControllerName = "User", HttpMethod = HttpMethod.Post)]
     public class CreateUserCommandHandler : ICommandHandler<CreateUserCommand, ApiResponse<bool>>
     {
-        private IContactDbContext _dbContext;
+        private readonly IContactDbContext _dbContext;
         public CreateUserCommandHandler(IContactDbContext dbContext)
         {
             _dbContext = dbContext;

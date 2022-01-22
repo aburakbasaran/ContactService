@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using ContactService.Application.Commmand;
@@ -17,7 +16,7 @@ namespace ContactService.ContactModule.Engine.User.CommandHandler
     [Generator(ActionName = "Add", ControllerName = "UserContact", HttpMethod = HttpMethod.Post)]
     public class AddUserContactCommandHandler : ICommandHandler<AddUserContactCommand, ApiResponse<bool>>
     {
-        private IContactDbContext _dbContext;
+        private readonly IContactDbContext _dbContext;
         public AddUserContactCommandHandler(IContactDbContext dbContext)
         {
             _dbContext = dbContext;

@@ -16,7 +16,7 @@ namespace ContactService.ContactModule.Engine.User.CommandHandler
     [Generator(ActionName = "Delete", ControllerName = "User", HttpMethod = HttpMethod.Delete)]
     public class DeleteUserCommandHandler : ICommandHandler<DeleteUserCommand, ApiResponse<bool>>
     {
-        private IContactDbContext _dbContext;
+        private readonly IContactDbContext _dbContext;
         public DeleteUserCommandHandler(IContactDbContext dbContext)
         {
             _dbContext = dbContext;
