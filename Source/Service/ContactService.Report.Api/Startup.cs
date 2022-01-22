@@ -1,6 +1,8 @@
 
 using ContactService.Application;
 using ContactService.Application.Exception;
+using ContactService.ContactModule.Engine;
+using ContactService.Infrastructure;
 using ContactService.Report.Api.Extension;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +36,10 @@ namespace ContactService.Report.Api
             services.AddSwaggerConfiguration();
 
             services.AddCoreApplication();
+
+            services.AddCoreInfrastructure();
+
+            services.AddReportModuleEngine(mvcBuilder, Configuration);
 
         }
 

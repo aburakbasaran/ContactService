@@ -7,7 +7,7 @@ using ContactService.Application.Queries;
 using ContactService.ContactModule.Data.Data;
 using ContactService.ContactModule.Messages.Enum;
 using ContactService.ContactModule.Messages.User.Command;
-using ContactService.ContactModule.Messages.User.Dto;
+using ContactService.ContactModule.Messages.UserContact.Query.Dto;
 using ContactService.SourceGenerator.ApiGenerator;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler

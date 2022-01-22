@@ -2,6 +2,7 @@ using ContactService.API.Extension;
 using ContactService.Application;
 using ContactService.Application.Exception;
 using ContactService.ContactModule.Engine;
+using ContactService.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -36,6 +37,8 @@ namespace ContactService.API
             services.AddSwaggerConfiguration();
 
             services.AddCoreApplication();
+
+            services.AddCoreInfrastructure();
 
             //Modules
             services.AddContactModuleEngine(mvcBuilder, Configuration);

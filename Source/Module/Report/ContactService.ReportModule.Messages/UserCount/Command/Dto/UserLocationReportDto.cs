@@ -1,4 +1,4 @@
-﻿namespace ContactService.ContactModule.Messages.UserContact.Query.Dto
+﻿namespace ContactService.ContactModule.Messages.User.Dto
 {
     public class UserLocationReportDto
     {

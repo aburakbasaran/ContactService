@@ -29,3 +29,11 @@ OBJ/*
 /.vs
 /Source/Service/ContactService.Report.Api/bin/Debug/net5.0
 /Source/Service/ContactService.Report.Api/obj
+/Source/Module/Report/ContactService.ReportModule.Data/bin/Debug/net5.0
+/Source/Module/Report/ContactService.ReportModule.Data/obj
+/Source/Module/Report/ContactService.ReportModule.Engine/bin/Debug/net5.0
+/Source/Module/Report/ContactService.ReportModule.Engine/obj
+/Source/Module/Report/ContactService.ReportModule.Messages/bin/Debug/net5.0
+/Source/Module/Report/ContactService.ReportModule.Messages/obj
+/Source/Service/ContactService.ReportCreator/bin/Debug/net5.0
+/Source/Service/ContactService.ReportCreator/obj

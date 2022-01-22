@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\ContactService.SourceGenerator\ContactService.SourceGenerator.csproj" OutputItemType="Analyzer" />
+    <ProjectReference Include="..\..\..\Core\ContractService.Application\ContactService.Application.csproj" />
+    <ProjectReference Include="..\ContactService.ReportModule.Data\ContactService.ReportModule.Data.csproj" />
+    <ProjectReference Include="..\ContactService.ReportModule.Messages\ContactService.ReportModule.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
