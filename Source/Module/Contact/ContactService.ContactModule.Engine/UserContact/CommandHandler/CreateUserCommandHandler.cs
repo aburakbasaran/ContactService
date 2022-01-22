@@ -27,7 +27,9 @@ namespace ContactService.ContactModule.Engine.User.CommandHandler
             ApiResponse<bool> result = new();
             result.Data = false;
 
-            var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Name == request.AddUserContactDto.UserName, cancellationToken);
+            var userName = request.AddUserContactDto.UserName.ToLower();
+
+            var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Name == userName, cancellationToken);
 
             if (user == null)
             {
