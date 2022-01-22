@@ -1,16 +1,14 @@
-using ContactService.API.Extension;
+
 using ContactService.Application;
 using ContactService.Application.Exception;
-using ContactService.ContactModule.Engine;
+using ContactService.Report.Api.Extension;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-
-
-namespace ContactService.API
+namespace ContactService.Report.Api
 {
     public class Startup
     {
@@ -25,11 +23,11 @@ namespace ContactService.API
         public void ConfigureServices(IServiceCollection services)
         {
             IMvcBuilder mvcBuilder = services.AddControllers(options => options.Filters.Add<ApiResponseExceptionFilter>())
-                                            .ConfigureApiBehaviorOptions(options =>
-                                            {
-                                                options.SuppressModelStateInvalidFilter = true;
-                                                options.SuppressInferBindingSourcesForParameters = true;
-                                            });
+                                                       .ConfigureApiBehaviorOptions(options =>
+                                                       {
+                                                           options.SuppressModelStateInvalidFilter = true;
+                                                           options.SuppressInferBindingSourcesForParameters = true;
+                                                       });
 
             services.AddControllers();
 
@@ -37,10 +35,6 @@ namespace ContactService.API
 
             services.AddCoreApplication();
 
-            //Modules
-            services.AddContactModuleEngine(mvcBuilder, Configuration);
-
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

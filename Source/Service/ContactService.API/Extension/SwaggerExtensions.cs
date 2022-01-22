@@ -1,9 +1,9 @@
-﻿using ContactService.Infrastructure.Constant;
+﻿using ContactService.API.Constant;
 using Microsoft.Extensions.DependencyInjection;
 using NSwag;
 using System;
 
-namespace ContactService.Infrastructure.Extension
+namespace ContactService.API.Extension
 {
     public static class SwaggerExtensions
     {

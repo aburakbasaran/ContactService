@@ -26,3 +26,6 @@ OBJ/*
 /Source/Module/Contact/ContactService.ContactModule.Data/obj
 /Source/Module/Contact/ContactService.ContactModule.Engine/bin/Debug/net5.0
 /Source/Module/Contact/ContactService.ContactModule.Engine/obj
+/.vs
+/Source/Service/ContactService.Report.Api/bin/Debug/net5.0
+/Source/Service/ContactService.Report.Api/obj
