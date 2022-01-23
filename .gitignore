@@ -37,3 +37,5 @@ OBJ/*
 /Tests/ContactService.IntegrationTest/obj
 /Tests/ContactService.TestBase/obj
 /Tests/Unit/ContactService.UnitTest/obj
+/Tests/Integration/ContactService.IntegrationTest/obj
+/Tests/Unit/ContactService.UnitTest/bin/Debug/net5.0
