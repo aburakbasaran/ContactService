@@ -40,3 +40,6 @@ OBJ/*
 /Tests/ContactService.IntegrationTest/obj
 /Tests/ContactService.TestBase/obj
 /Tests/Unit/ContactService.UnitTest/obj
+/Source/Domain/ContactService.Domain/obj/Debug/net5.0
+/Tests/Integration/ContactService.IntegrationTest/obj
+/Tests/Unit/ContactService.UnitTest/bin/Debug/net5.0

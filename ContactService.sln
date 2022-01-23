@@ -53,9 +53,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.UnitTest", "Tests\Unit\ContactService.UnitTest\ContactService.UnitTest.csproj", "{4C0345E1-1683-4077-90EE-61335AD50601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.IntegrationTest", "Tests\ContactService.IntegrationTest\ContactService.IntegrationTest.csproj", "{6C6B3448-DE18-4366-9FFF-48F620BF72CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.IntegrationTest", "Tests\Integration\ContactService.IntegrationTest\ContactService.IntegrationTest.csproj", "{6C6B3448-DE18-4366-9FFF-48F620BF72CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.TestBase", "Tests\ContactService.TestBase\ContactService.TestBase.csproj", "{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.TestBase", "Tests\ContactService.TestBase\ContactService.TestBase.csproj", "{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,7 +148,7 @@ Global
 		{879DBA45-C427-4146-B03D-922FA4E7F4DE} = {792FC72F-7DF0-4976-90A5-0F66B5CF6B4F}
 		{2EB3629E-2B9D-4D36-9209-AC0962B5E002} = {792FC72F-7DF0-4976-90A5-0F66B5CF6B4F}
 		{4C0345E1-1683-4077-90EE-61335AD50601} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
-		{6C6B3448-DE18-4366-9FFF-48F620BF72CF} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF} = {2EB3629E-2B9D-4D36-9209-AC0962B5E002}
 		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
