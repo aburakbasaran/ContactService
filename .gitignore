@@ -37,3 +37,6 @@ OBJ/*
 /Source/Module/Report/ContactService.ReportModule.Messages/obj
 /Source/Service/ContactService.ReportCreator/bin/Debug/net5.0
 /Source/Service/ContactService.ReportCreator/obj
+/Tests/ContactService.IntegrationTest/obj
+/Tests/ContactService.TestBase/obj
+/Tests/Unit/ContactService.UnitTest/obj

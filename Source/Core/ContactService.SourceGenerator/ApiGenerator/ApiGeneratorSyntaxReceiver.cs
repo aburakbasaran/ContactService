@@ -1,9 +1,11 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ContactService.SourceGenerator.ApiGenerator
 {
+    [ExcludeFromCodeCoverage]
     internal sealed class ApiGeneratorSyntaxReceiver : ISyntaxReceiver
     {
         private const string CommandSelector = "ICommandHandler";

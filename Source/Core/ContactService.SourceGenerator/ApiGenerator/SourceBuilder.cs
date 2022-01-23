@@ -1,9 +1,11 @@
 ﻿using System;
 using System.CodeDom.Compiler;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 
 namespace ContactService.SourceGenerator.ApiGenerator
 {
+    [ExcludeFromCodeCoverage]
     internal sealed class SourceBuilder : IDisposable
     {
         private readonly StringWriter _writer;

@@ -1,16 +1,17 @@
-﻿using ContactService.ContactModule.Messages.User.Command;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using ContactService.ContactModule.Messages.User.Command;
 using ContactService.Infrastructure;
 using ContactService.Infrastructure.Provider.Bus.RabbitQueue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace ImageClassifier
+namespace ContactService.ReportCreator
 {
+    [ExcludeFromCodeCoverage]
     public class Program
     {
         public static Task Main(string[] args)
@@ -40,27 +41,15 @@ namespace ImageClassifier
 
             await rabbitBus.ReceiveAsync<Guid>(Queue.Processing, async ReportId =>
             {
-                CreateReportCommand request = new();
-                request.ReportId = ReportId;
+                CreateReportCommand request = new()
+                {
+                    ReportId = ReportId
+                };
 
-                using HttpResponseMessage httpResponse = await new HttpClient().PostAsJsonAsync("https://localhost:44397/CreateUserCountReportData", ReportId.ToString());
+                using var httpResponse = await new HttpClient().PostAsJsonAsync("https://localhost:44397/CreateUserCountReportData", ReportId.ToString());
 
             });
 
-        }
-
-        private async Task<TResponse> Postyuy<TRequest, TResponse>(string url, double timeoutInSeconds, TRequest request, CancellationToken cancellationToken)
-        {
-            using CancellationTokenSource cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
-            cts.CancelAfter(TimeSpan.FromSeconds(timeoutInSeconds));
-
-            using HttpResponseMessage httpResponse = await new HttpClient() // TODO böyle olmaması lazım.
-                .PostAsJsonAsync(url, request, cts.Token);
-
-            httpResponse.EnsureSuccessStatusCode();
-
-            return await httpResponse.Content
-                .ReadFromJsonAsync<TResponse>(cancellationToken: cts.Token);
         }
     }
 }

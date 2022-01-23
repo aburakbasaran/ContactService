@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using ContactService.API.Extension;
 using ContactService.Application;
 using ContactService.Application.Exception;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace ContactService.API
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)

@@ -45,7 +45,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ReportModule
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ReportModule.Messages", "Source\Module\Report\ContactService.ReportModule.Messages\ContactService.ReportModule.Messages.csproj", "{651FCC32-8E79-4B46-91FC-DC1BC2C35CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.ReportCreator", "Source\Service\ContactService.ReportCreator\ContactService.ReportCreator.csproj", "{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.ReportCreator", "Source\Service\ContactService.ReportCreator\ContactService.ReportCreator.csproj", "{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{879DBA45-C427-4146-B03D-922FA4E7F4DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{2EB3629E-2B9D-4D36-9209-AC0962B5E002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.UnitTest", "Tests\Unit\ContactService.UnitTest\ContactService.UnitTest.csproj", "{4C0345E1-1683-4077-90EE-61335AD50601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.IntegrationTest", "Tests\ContactService.IntegrationTest\ContactService.IntegrationTest.csproj", "{6C6B3448-DE18-4366-9FFF-48F620BF72CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.TestBase", "Tests\ContactService.TestBase\ContactService.TestBase.csproj", "{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +111,18 @@ Global
 		{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0345E1-1683-4077-90EE-61335AD50601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0345E1-1683-4077-90EE-61335AD50601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0345E1-1683-4077-90EE-61335AD50601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0345E1-1683-4077-90EE-61335AD50601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +145,11 @@ Global
 		{FC9F25F9-A5B8-45A0-8FF5-0A06A171D287} = {88A783F9-D569-4AC5-800F-6250E274213B}
 		{651FCC32-8E79-4B46-91FC-DC1BC2C35CF1} = {88A783F9-D569-4AC5-800F-6250E274213B}
 		{9AEFA8A1-CABF-442F-A1FF-DB4B41AED06D} = {88DCB44D-4098-4078-880D-6DBBE30B2FBC}
+		{879DBA45-C427-4146-B03D-922FA4E7F4DE} = {792FC72F-7DF0-4976-90A5-0F66B5CF6B4F}
+		{2EB3629E-2B9D-4D36-9209-AC0962B5E002} = {792FC72F-7DF0-4976-90A5-0F66B5CF6B4F}
+		{4C0345E1-1683-4077-90EE-61335AD50601} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
+		{6C6B3448-DE18-4366-9FFF-48F620BF72CF} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
+		{5583F8D1-97E5-4762-B5A8-AECA51B7CA95} = {879DBA45-C427-4146-B03D-922FA4E7F4DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F3CAE08-EAA1-4907-B775-A8E58EF498B7}

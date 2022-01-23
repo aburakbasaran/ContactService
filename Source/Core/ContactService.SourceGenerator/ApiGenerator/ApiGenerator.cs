@@ -3,12 +3,14 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
 namespace ContactService.SourceGenerator.ApiGenerator
 {
     [Microsoft.CodeAnalysis.Generator]
+    [ExcludeFromCodeCoverage]
     internal sealed class ApiGenerator : ISourceGenerator
     {
         private const string GeneratorAttributeName = "Generator";

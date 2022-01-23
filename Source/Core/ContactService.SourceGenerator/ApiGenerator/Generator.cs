@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ContactService.SourceGenerator.ApiGenerator
 {
+    [ExcludeFromCodeCoverage]
     public class GeneratorAttribute : Attribute
     {
         public string ActionName { get; set; }

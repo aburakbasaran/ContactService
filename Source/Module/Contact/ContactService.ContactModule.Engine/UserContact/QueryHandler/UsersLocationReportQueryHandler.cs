@@ -1,16 +1,16 @@
-﻿using ContactService.Application.Model;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using ContactService.Application.Model;
 using ContactService.Application.Queries;
 using ContactService.ContactModule.Data.Data;
 using ContactService.ContactModule.Messages.Enum;
 using ContactService.ContactModule.Messages.User.Command;
 using ContactService.ContactModule.Messages.UserContact.Query.Dto;
 using ContactService.SourceGenerator.ApiGenerator;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace ContactService.ContactModule.Engine.User.CommandHandler
+namespace ContactService.ContactModule.Engine.UserContact.QueryHandler
 {
     [Generator(ActionName = "Get", ControllerName = "UserContactLocationsReport", HttpMethod = HttpMethod.Get, NameSpace = "ContactService.API.Controllers")]
     public class UsersLocationReportQueryHandler : IQueryHandler<GetUsersLocationQuery, ApiResponse<List<UserLocationReportDto>>>

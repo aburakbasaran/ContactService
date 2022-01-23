@@ -1,4 +1,7 @@
-﻿using ContactService.Application.Model;
+﻿using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using ContactService.Application.Model;
 using ContactService.Application.Queries;
 using ContactService.ContactModule.Data.Data;
 using ContactService.ContactModule.Messages.Enum;
@@ -6,11 +9,8 @@ using ContactService.ContactModule.Messages.User.Command;
 using ContactService.ContactModule.Messages.User.Dto;
 using ContactService.SourceGenerator.ApiGenerator;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace ContactService.ContactModule.Engine.User.CommandHandler
+namespace ContactService.ContactModule.Engine.UserContact.QueryHandler
 {
     [Generator(ActionName = "GetAll", ControllerName = "UserContact", HttpMethod = HttpMethod.Get, NameSpace = "ContactService.API.Controllers")]
     public class UserContactsQueryHandler : IQueryHandler<GetUserContactsQuery, ApiResponse<UserContactsDto>>

@@ -2,9 +2,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using NSwag;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ContactService.Report.Api.Extension
 {
+    [ExcludeFromCodeCoverage]
     public static class SwaggerExtensions
     {
         public static IServiceCollection AddSwaggerConfiguration(this IServiceCollection services)

@@ -1,4 +1,5 @@
-﻿namespace ContactService.SourceGenerator.ApiGenerator
+﻿
+namespace ContactService.SourceGenerator.ApiGenerator
 {
     public enum HttpMethod : byte
     {

@@ -1,8 +1,10 @@
 ﻿using Microsoft.CodeAnalysis;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ContactService.SourceGenerator.ApiGenerator
 {
+    [ExcludeFromCodeCoverage]
     internal sealed class ActionMetadata
     {
         public string Name { get; set; }
