@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ContractService.Infrastructure\ContactService.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Module\Report\ContactService.ReportModule.Engine\ContactService.ReportModule.Engine.csproj" />
+  </ItemGroup>
+
+</Project>

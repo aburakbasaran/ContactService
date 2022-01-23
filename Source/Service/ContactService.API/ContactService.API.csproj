@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\ContractService.Infrastructure\ContactService.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Module\Contact\ContactService.ContactModule.Engine\ContactService.ContactModule.Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

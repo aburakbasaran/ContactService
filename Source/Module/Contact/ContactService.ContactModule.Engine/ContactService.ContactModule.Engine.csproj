@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\ContactService.SourceGenerator\ContactService.SourceGenerator.csproj" OutputItemType="Analyzer" />
+    <ProjectReference Include="..\..\..\Core\ContractService.Application\ContactService.Application.csproj" />
+    <ProjectReference Include="..\ContactService.ContactModule.Data\ContactService.ContactModule.Data.csproj" />
+    <ProjectReference Include="..\ContactService.ContactModule.Messages\ContactService.ContactModule.Messages.csproj" />
+  </ItemGroup>
+
 </Project>
