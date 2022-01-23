@@ -9,7 +9,7 @@ namespace ContactService.API.Controllers
     {
         public WeatherForecastController()
         {
-          
+
         }
 
         [HttpGet]

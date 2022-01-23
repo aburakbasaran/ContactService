@@ -1,8 +1,8 @@
-﻿using System;
-using System.IO;
-using ContactService.Infrastructure.Provider.EfDbProvider.EntityFrameworkCore;
+﻿using ContactService.Infrastructure.Provider.EfDbProvider.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System;
+using System.IO;
 
 namespace ContactService.Infrastructure.Provider.EfDbProvider.Helpers
 {

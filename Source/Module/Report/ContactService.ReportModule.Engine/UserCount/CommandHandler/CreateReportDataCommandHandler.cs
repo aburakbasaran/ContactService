@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json;
-using System.Threading;
-using System.Threading.Tasks;
-using ContactService.Application.Commmand;
+﻿using ContactService.Application.Commmand;
 using ContactService.Application.Enum;
 using ContactService.Application.Model;
 using ContactService.ContactModule.Messages.User.Command;
@@ -14,6 +9,11 @@ using ContactService.ReportModule.Data.Data.Entities;
 using ContactService.SourceGenerator.ApiGenerator;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {

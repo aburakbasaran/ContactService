@@ -1,9 +1,9 @@
-﻿using System;
+﻿using ContactService.Application.Abstract;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using ContactService.Application.Abstract;
-using Microsoft.EntityFrameworkCore;
 
 namespace ContactService.Infrastructure.Provider.EfDbProvider.EntityFrameworkCore
 {

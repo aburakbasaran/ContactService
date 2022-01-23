@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ContactService.Application.Abstract;
+using System;
 using System.Collections.Generic;
-using ContactService.Application.Abstract;
 
 namespace ContactService.ContactModule.Data.Data.Entities
 {

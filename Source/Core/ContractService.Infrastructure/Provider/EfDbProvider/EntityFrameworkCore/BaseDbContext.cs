@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
-using ContactService.Infrastructure.Helpers;
+﻿using ContactService.Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace ContactService.Infrastructure.Provider.EfDbProvider.EntityFrameworkCore
 {

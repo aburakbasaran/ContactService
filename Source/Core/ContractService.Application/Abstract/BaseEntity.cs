@@ -1,7 +1,7 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using ContactService.Application.Exception;
+﻿using ContactService.Application.Exception;
 using ContactService.Application.Interface;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.Application.Abstract
 {

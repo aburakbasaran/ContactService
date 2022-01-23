@@ -1,5 +1,5 @@
-﻿using System;
-using ContactService.Application.Abstract;
+﻿using ContactService.Application.Abstract;
+using System;
 
 namespace ContactService.ContactModule.Data.Data.Entities
 {

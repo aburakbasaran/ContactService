@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using ContactService.Application.Commmand;
+﻿using ContactService.Application.Commmand;
 using ContactService.Application.Enum;
 using ContactService.Application.Model;
 using ContactService.ContactModule.Data.Data;
@@ -10,6 +6,8 @@ using ContactService.ContactModule.Messages.User.Command;
 using ContactService.SourceGenerator.ApiGenerator;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {

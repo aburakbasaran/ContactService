@@ -1,10 +1,6 @@
-﻿using ContactService.Application.Model;
-using ContactService.ContactModule.Engine.User.CommandHandler;
-using ContactService.ContactModule.Messages.User.Command;
+﻿using ContactService.ContactModule.Messages.User.Command;
 using ContactService.Infrastructure;
-using ContactService.Infrastructure.Common;
 using ContactService.Infrastructure.Provider.Bus.RabbitQueue;
-using ContactService.ReportModule.Messages.UserCount.Command.Dto;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;

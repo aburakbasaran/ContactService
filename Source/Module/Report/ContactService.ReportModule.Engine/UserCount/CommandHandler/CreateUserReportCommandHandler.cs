@@ -1,12 +1,12 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using ContactService.Application.Commmand;
+﻿using ContactService.Application.Commmand;
 using ContactService.Application.Model;
 using ContactService.ContactModule.Messages.User.Command;
 using ContactService.Infrastructure.Provider.Bus.RabbitQueue;
 using ContactService.ReportModule.Data.Data;
 using ContactService.SourceGenerator.ApiGenerator;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {

@@ -1,9 +1,9 @@
-﻿using System.Reflection;
-using ContactService.ContactModule.Data.Data;
+﻿using ContactService.ContactModule.Data.Data;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace ContactService.ContactModule.Engine
 {

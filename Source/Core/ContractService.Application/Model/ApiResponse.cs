@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Text.Json.Serialization;
-using ContactService.Application.Enum;
+﻿using ContactService.Application.Enum;
 using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ContactService.Application.Model
 {

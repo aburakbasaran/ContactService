@@ -1,12 +1,12 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using ContactService.Application.Commmand;
+﻿using ContactService.Application.Commmand;
 using ContactService.Application.Model;
 using ContactService.ContactModule.Data.Data;
 using ContactService.ContactModule.Data.Data.Entities;
 using ContactService.ContactModule.Messages.User.Command;
 using ContactService.SourceGenerator.ApiGenerator;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ContactModule.Engine.User.CommandHandler
 {
@@ -34,11 +34,11 @@ namespace ContactService.ContactModule.Engine.User.CommandHandler
             _dbContext.Users.Add(user);
             var contextResult = await _dbContext.SaveChangesAsync(cancellationToken);
 
-            if (contextResult>0)
+            if (contextResult > 0)
             {
                 result.Data = true;
             }
-           
+
             return result;
         }
     }

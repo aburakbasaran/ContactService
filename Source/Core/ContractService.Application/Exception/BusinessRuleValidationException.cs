@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ContactService.Application.Interface;
+using System;
 using System.Runtime.Serialization;
-using ContactService.Application.Interface;
 
 namespace ContactService.Application.Exception
 {

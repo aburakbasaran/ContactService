@@ -1,7 +1,7 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using ContactService.ContactModule.Data.Data.Entities;
+﻿using ContactService.ContactModule.Data.Data.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ContactModule.Data.Data
 {

@@ -1,10 +1,10 @@
-﻿using System;
+﻿using ContactService.Infrastructure.Common;
+using ContactService.Infrastructure.Constant;
+using System;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using ContactService.Infrastructure.Common;
-using ContactService.Infrastructure.Constant;
 
 namespace ContactService.Infrastructure.HttpClient
 {

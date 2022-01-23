@@ -1,7 +1,7 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using ContactService.ReportModule.Data.Data.Entities;
+﻿using ContactService.ReportModule.Data.Data.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace ContactService.ReportModule.Data.Data
 {

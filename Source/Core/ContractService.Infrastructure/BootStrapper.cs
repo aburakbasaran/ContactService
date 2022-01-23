@@ -1,9 +1,9 @@
-﻿using System.Threading;
-using ContactService.Infrastructure.Common;
+﻿using ContactService.Infrastructure.Common;
 using ContactService.Infrastructure.Constant;
 using ContactService.Infrastructure.HttpClient;
 using ContactService.Infrastructure.Provider.Bus.RabbitQueue;
 using Microsoft.Extensions.DependencyInjection;
+using System.Threading;
 
 namespace ContactService.Infrastructure
 {

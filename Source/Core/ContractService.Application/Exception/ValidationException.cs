@@ -1,9 +1,9 @@
-﻿using System;
+﻿using ContactService.Application.Constant;
+using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using ContactService.Application.Constant;
-using FluentValidation.Results;
 
 
 namespace ContactService.Application.Exception
