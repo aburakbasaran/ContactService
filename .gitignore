@@ -43,3 +43,5 @@ OBJ/*
 /Source/Domain/ContactService.Domain/obj/Debug/net5.0
 /Tests/Integration/ContactService.IntegrationTest/obj
 /Tests/Unit/ContactService.UnitTest/bin/Debug/net5.0
+/Tests/ContactService.TestBase/bin/Debug/net5.0
+/Tests/Integration/ContactService.IntegrationTest/bin/Debug/net5.0
